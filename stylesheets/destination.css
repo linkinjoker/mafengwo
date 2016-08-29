@@ -1,0 +1,121 @@
+#wrapper-header{
+	width: 100%;
+	height: 460px;
+	background-color: chartreuse;
+	background: url("../images/m_headbg.jpg") no-repeat;
+	background-size: 1400px 450px;
+}
+#header{
+	width: 100%;
+	background: none;
+	cursor:pointer;
+}
+#header:hover {
+	background: #FFFFFF;
+}
+
+.search{
+	margin:80px auto auto 200px;
+	float: left;
+	width: 380px;
+	height: 130px;
+	padding: 10px 30px;
+	color:  #ff9d00;
+	background:rgba(225,225,225,0.5);
+	position: relative;
+	
+}
+.search b{
+	color: #FFFFFF;
+}
+.wrapper-search p{
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.search p input{
+	margin-left: 26px;
+}
+.search form input{
+	margin: 8px;
+	width: 300px;
+	height: 38px;
+	text-indent: 1.5em;
+	font-size: 18px;
+}
+.btn{
+	width: 42px;
+	height: 42px;
+	background: url("../images/button_a.png") no-repeat;
+	background-color: #ff9e00;
+	background-position: 0px -2px;
+	position: absolute;
+	top: 49px;
+	left: 340px;
+	
+}
+.btn{
+	cursor:pointer;
+}
+.note{
+	margin: 50px 120px auto auto;
+	float: right;
+	padding: 15px;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+.note img{
+	margin-right: 30px;
+	float: left;
+}
+.note dt{
+	color: black;
+	padding: 10px;
+	font-size: 30px;
+}
+.note dd{
+	margin-bottom:10px;
+}
+.navicon_a{
+
+	position: absolute;
+	top: 370px;
+	left: 630px;
+
+}
+#main{
+	margin:0px auto;
+	width: 75%;
+}
+.topbanner{
+	margin:20px 5px;
+	
+}
+.hot{
+	text-align: center;
+	
+}
+.hot b {
+	font: 30px "宋体";
+}
+.hot p a{
+	font: 20px "宋体";
+	color: #556271;
+}
+.hot li{
+	display: inline-block;
+	padding:25px 50px 10px 50px;
+	font-size: 28px;
+}
+.hot li a:hover{
+	color: #FF9D00;
+}
+
+.go img{
+	margin:4px;
+	float: left;
+}
+
+.navicon_b{
+	margin: 50px 450px;
+	float: inherit;
+}
