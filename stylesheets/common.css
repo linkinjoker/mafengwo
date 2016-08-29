@@ -1,0 +1,166 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,input,textarea,select{
+	margin:0;
+	padding:0;
+	list-style:none;
+} 
+font{
+	"微软雅黑","宋体","Arial Narrow";
+}  
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#header{
+	margin: 5px auto;
+	width: 75%;
+	height: 60px;
+}
+.logo{
+
+	margin: 12px;
+	float: left;
+	width: 140px;
+	height: 40px;
+	background-image: url("../images/logo_a.png");
+	background-position: 0px 0px;
+}
+.logo:hover{
+	cursor:pointer;
+}
+.nav{
+	margin-left: 10px;
+	float: left;
+	width: 55%;
+	line-height: 55px;
+}
+
+.nav li{
+	display: inline-block;	
+}
+
+.nav ul li a{
+	padding: 17px;
+
+}
+.nav ul li:hover{
+	background-color: #ff9d00;
+}
+.nav ul li:hover ul{
+	display: block;
+	width: 100px;
+	background-color: #FFFFFF;
+	position: absolute;
+}
+ul li ul{
+	display: none;
+	position: absolute;
+	
+}
+.login{
+	margin:15px 20px 0px 0px;
+	float: right;
+	width: 220px;
+	height: 30px;
+}
+.login span{
+
+	margin-left: 20px;
+	line-height: 30px;
+}
+.login span a{
+	color: #ff9d00;
+}
+.icon_a{
+	margin:0px 2px ;	
+	float: left;
+	width: 29px;
+	height: 28px;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: 0px -48px;
+}
+.icon_a:hover{
+	cursor:pointer;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: 0px -79px;
+}
+.icon_b{
+	margin:0px 2px ;
+	float: left;
+	width: 29px;
+	height: 28px;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: -30px -48px;
+}
+.icon_b:hover{
+	cursor:pointer;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: -30px -79px;
+}
+.icon_c{
+	margin:0px 2px ;
+	float: left;
+	width: 29px;
+	height: 28px;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: 0px -163px;
+}
+.icon_c:hover{
+	cursor:pointer;
+	background: url("../images/logo_a.png") no-repeat;
+	background-position: -30px -163px;
+}
+
+#footer{
+	width: 100%;
+	background-color: #3c3c3c;
+	text-align: center;
+	position: relative;
+}
+.servicelink{
+	margin:0px auto;
+	font-size: 15px;
+	width:75%;
+	height: 160px;
+
+}
+.serviceicon{
+
+	float: right;
+	width: 46px;
+	height: 135px;
+	border: 2px solid #aaaaaa;
+	position: absolute;
+	top: -200px;
+	right: 110px;
+}
+.service-a a{
+	width: 50px;
+	height: 50px;
+	color: #ff9e00;
+}
+.service-a:hover{
+
+}
+
+.service-b{
+	width: 50px;
+	height: 50px;
+	background: url("../images/serviceicon_b.png") no-repeat;	
+}
+.service-b:hover{
+	cursor:pointer;
+	background: url("../images/serviceicon_2.png") no-repeat;
+}
+
+.service-c{
+	width: 50px;
+	height: 50px;
+	background: url("../images/serviceicon_c.png") no-repeat;	
+}
+.service-c:hover{
+	cursor:pointer;
+	background: url("../images/serviceicon_3.png") no-repeat;
+}
+
+
