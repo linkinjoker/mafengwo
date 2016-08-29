@@ -1,0 +1,175 @@
+.bg_a{
+	margin:0px auto;
+	height: 450px;
+	background: url("../images/haedbg.jpg") no-repeat;
+	background-size: 1350px 450px;
+
+}
+.txt{
+	margin: 50px 0px 0px 160px;
+	float: left;
+	font-size: 35px;
+
+}
+
+.txt a{
+	color: #ffffff;
+	font-size: 23px;
+}
+.txt-right{
+	margin-left: 100px;
+}
+.day{
+	font-size: 50px;
+}
+.search{
+	margin: 280px auto auto -180px;
+	float: left;
+	width: 550px;
+	height: 80px;
+	padding: 10px 30px;
+	color:  #ff9d00;
+	background:rgba(225,225,225,0.5);
+	position: relative;
+	
+}
+.search p input{
+	margin-left: 26px;
+}
+.search form input{
+	margin: 8px;
+	width: 480px;
+	height: 40px;
+	text-indent: 2em;
+	font-size: 18px;
+}
+.search form .btn{
+	width: 42px;
+	height: 42px;
+	background: url("../images/button_a.png") no-repeat;
+	background-color: #ff9e00;
+	background-position: 0px -2px;
+	position: absolute;
+	top: 32px;
+	left: 512px;
+	cursor:pointer;
+}
+
+#main{
+	margin:0px auto;
+	width: 75%;
+
+}
+#main:after{
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:"";
+	line-height: 0;
+}
+.content-left{
+	margin: 20px auto auto 20px;
+	float: left;
+	width: 28%;
+	font-size: 15px;
+}
+.content-left img{
+	margin: 15px 5px;
+}
+.content-left p{
+	font-size: 15px;
+	
+}
+.content-left span{
+
+	font-size: 20px;
+	color: #ff9e00;
+}
+.hot{
+	margin: 30px auto ;
+}
+.music p{
+	padding: 20px;
+}
+.music img{
+
+	margin:15px;
+	float: left;
+}
+.music:after{
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:"";
+	line-height: 0;
+				
+}
+.content-right{
+	float: right;
+	width: 68%;
+
+}
+
+.wrapper-activity:after{
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:"";
+	line-height: 0;
+}
+.wrapper-activity a{
+	width: 50px;
+	font-size: 12px;
+
+}
+.wrapper-activity b{
+	color: #ff9e00;
+	font-size: 14px;
+}
+.wrapper-activity a img{
+	float: left;
+
+}
+.banner_a{
+	margin: 35px auto;
+	
+}
+.wrapper-go p{
+	color: #ff9e00;
+	font-size: 26px;
+	margin:0px auto 20px 30px;
+}
+.go_1{
+	height: 170px;
+
+}
+.go_1:hover{
+	background-color: #efefef;
+}
+.go_1:hover dt a{
+	color: #ff9d00;
+}
+.go_1 img{
+	margin:9px 20px auto 5px;
+	float: left;
+}
+.go dt{
+	margin: 10px;
+}
+.go_1 dd b a{
+	padding-left: 270px;
+	color: #ff9e00;
+}
+
+.banner_b{
+	float: left;
+	width: 100%;
+
+}
+.banner_b img{
+	margin: 20px auto 50px 6px;
+}
+
+
+
+
